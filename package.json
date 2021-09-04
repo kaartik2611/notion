@@ -1,0 +1,32 @@
+{
+  "name": "notion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css" : "tailwind public/css/styles.css -o public/css/tailwind.css",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaartik2611/notion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaartik2611/notion/issues"
+  },
+  "homepage": "https://github.com/kaartik2611/notion#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "nodemon": "^2.0.12",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.9"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.4"
+  }
+}
